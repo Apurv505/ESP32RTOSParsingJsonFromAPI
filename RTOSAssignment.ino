@@ -34,7 +34,7 @@ void keepWiFiAlive(void * parameter) {
       continue;
     }
 
-    Serial.println("Connecting");
+    Serial.println("Connecting to WiFi");
     WiFi.mode(WIFI_STA);
     WiFi.begin(WIFI_NETWORK, WIFI_PASSWORD);
 
